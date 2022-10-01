@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+:root{
+    --heading_text: #636c6c;
+    --onec_text: #5dca88;
+    --text: #8c9494;
+}
+
+p{
+    font-family: Raleway-Variable;
+}
+.navbar-brand{
+    font-size: 27px;
+    font-family: Raleway-Bold;
+}
+.navbar-nav a{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.header_top{
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
+.header__calll{
+   display: flex;
+   align-items: center;
+   height: 35px;
+   width: 140px;
+   margin-right: 15px;
+}
+.header__calll p{
+    margin-bottom: 0px;
+    padding-left: 12px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.header__header{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__email{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+.header__email p{
+    margin-bottom: 0;
+    padding-left: 12px;
+    padding-top: 5px;
+}
+.header__email i{
+    padding-top: 7px;
+}
+.header__background{
+    width: 100%;
+    height: 735px;
+    background: url(../images/smart-app-psd_02.jpg) center center no-repeat;
+}
+.header__background{
+    display: flex;
+    align-items: center;
+}
+.header__text__text1 p{
+    margin-bottom: 0px;
+    color: white;
+    font-size: 34px;
+    word-spacing: 5px;
+    font-family: Raleway-Bold;
+}
+.header__text__text2 p{
+    color: white;
+    font-size: 30px;
+    word-spacing: -3px;
+    margin-bottom: 0px;
+    margin-top: -7px;
+}
+.header__text__text3 p{
+    color: #8cb7c1;
+    text-align: start;
+    margin-bottom: 0px;
+    
+}
+.header__text__text3{
+    height: 70px;
+    margin-top: 38px;
+    width: 530px;
+}
+.header__text{
+  height: 305px;
+  width: 443px;
+  margin-left: 50px;
+}
+.header__text__text4{
+    margin-top: 48px;
+    
+}
+.header__text__text4 a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.872);
+}
+.header__text__text4 button{
+    border-color: #f3f3f3;
+    padding: 16px 70px;
+    background: none;
+    border-radius: 27px;
+    font-family: Raleway-Bold;
+}
+.header__mainn{
+    width: 860px;
+    height: 100%;
+    text-align: center;
+}
+#row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_main{
+    margin-top: 96px;
+}
+.header__main__main1 p{
+    font-size: 36px;
+    color: var(--heading_text);
+}
+.header__main__main2 p{
+   color: var(--text);
+   font-size: 16px;
+}
